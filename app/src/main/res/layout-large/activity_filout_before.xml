@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fillout_before"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="บันทึกข้อมูล"
+                    android:textColor="#4D9AA2"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView11"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="ก่อนการทดสอบ"
+                    android:textColor="#4D9AA2"
+                    android:textSize="65sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bgtexta">
+
+                <EditText
+                    android:id="@+id/PR"
+                    android:layout_width="320dp"
+                    android:layout_height="63dp"
+                    android:layout_below="@+id/textView16"
+                    android:layout_alignStart="@+id/textView16"
+                    android:layout_alignLeft="@+id/textView16"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="37dp"
+                    android:layout_toStartOf="@+id/imageView6"
+                    android:layout_toLeftOf="@+id/imageView6"
+                    android:background="@drawable/bgtextdata"
+                    android:ems="10"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:hint="PR "
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#D0CECE"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="110dp"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="อัตราการเต้นของหัวใจ"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView23"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toEndOf="@+id/textView23"
+                    android:layout_toRightOf="@+id/textView23"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="*"
+                    android:textColor="#CD2A01"
+                    android:textSize="35dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="226dp"
+                    android:layout_height="214dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ox"
+                    app:srcCompat="@drawable/ox" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="ระดับออกซิเจนในเลือด"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView16"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toEndOf="@+id/textView16"
+                    android:layout_toRightOf="@+id/textView16"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="*"
+                    android:textColor="#CD2A01"
+                    android:textSize="35dp" />
+
+                <EditText
+                    android:id="@+id/SPO2"
+                    android:layout_width="320dp"
+                    android:layout_height="63dp"
+                    android:layout_below="@+id/textView16"
+                    android:layout_alignStart="@+id/textView16"
+                    android:layout_alignLeft="@+id/textView16"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toStartOf="@+id/imageView6"
+                    android:layout_toLeftOf="@+id/imageView6"
+                    android:background="@drawable/bgtextdata"
+                    android:ems="10"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:hint="SpO2"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#D0CECE"
+                    android:textSize="35dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgtextb">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/pressure"
+                    app:srcCompat="@drawable/pressure" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView9"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/imageView9"
+                    android:layout_toRightOf="@+id/imageView9"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="ความดันโลหิต "
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+
+                <Button
+                    android:id="@+id/hint"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/textView28"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/idata"
+                    android:backgroundTint="#EAE0E0"
+                    app:iconTint="#070707" />
+
+                <EditText
+                    android:id="@+id/up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/textView28"
+                    android:layout_alignStart="@+id/textView28"
+                    android:layout_alignLeft="@+id/textView28"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgtextdata"
+                    android:ems="10"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:hint="ค่าบน"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#D0CECE"
+                    android:textSize="35dp" />
+
+                <EditText
+                    android:id="@+id/down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/up"
+                    android:layout_alignStart="@+id/textView28"
+                    android:layout_alignLeft="@+id/textView28"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bgtextdata"
+                    android:ems="10"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:hint="ค่าล่าง"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#D0CECE"
+                    android:textSize="35dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bgtextc">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="อุณหภูมิร่างกาย"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+                <Button
+                    android:id="@+id/hinta"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:layout_alignTop="@+id/textView31"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toStartOf="@+id/imageView13"
+                    android:layout_toLeftOf="@+id/imageView13"
+                    android:background="@drawable/idata"
+                    app:rippleColor="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/Temp"
+                    android:layout_width="358dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/textView31"
+                    android:layout_alignStart="@+id/textView31"
+                    android:layout_alignLeft="@+id/textView31"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_toStartOf="@+id/imageView13"
+                    android:background="@drawable/bgtextdata"
+                    android:ems="10"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:hint="เซลเซียส"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#D0CECE"
+                    android:textSize="35dp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/tem"
+                    app:srcCompat="@drawable/tem" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="177dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button1"
+                    android:fontFamily="@font/fcminimalregular"
+                    android:text="บันทึก"
+                    android:textColor="@color/white"
+                    android:textSize="35sp"
+                    app:backgroundTint="#24ADA4" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

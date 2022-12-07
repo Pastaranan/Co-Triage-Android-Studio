@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Test_API" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cotriage_color</item>
+        <item name="colorPrimaryDark">@color/cotriage_color</item>
+        <item name="colorAccent">@color/cotriage_color</item>
+        <item name="android:statusBarColor">@color/cotriage_color</item>
+        <item name="font">@font/fc_subject_regular</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

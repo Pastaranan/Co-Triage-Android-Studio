@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cotriage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icons"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icons_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test_API"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".data_admin_new"
+            android:exported="true" />
+        <activity
+            android:name=".data_addmin_home_new"
+            android:exported="true" />
+        <activity
+            android:name=".admin_home_new"
+            android:exported="true" />
+        <activity
+            android:name=".admin_b_new"
+            android:exported="true" />
+        <activity
+            android:name=".data_admin_b_new"
+            android:exported="true" />
+        <activity
+            android:name=".notification"
+            android:exported="true" />
+        <activity
+            android:name=".User_Profile"
+            android:exported="true" />
+        <activity
+            android:name=".Call"
+            android:exported="true" />
+        <activity
+            android:name=".Construction"
+            android:exported="true" />
+        <activity
+            android:name=".Graph"
+            android:exported="true" />
+        <activity
+            android:name=".hintc"
+            android:exported="true" />
+        <activity
+            android:name=".hintb"
+            android:exported="true" />
+        <activity
+            android:name=".hinta"
+            android:exported="true" />
+        <activity
+            android:name=".hint"
+            android:exported="true" />
+        <activity
+            android:name=".Walk_test_start_re"
+            android:exported="true" />
+        <activity
+            android:name=".Admin"
+            android:exported="true" />
+        <activity
+            android:name=".login1"
+            android:exported="true" />
+        <activity android:name=".walk_3_min" />
+        <activity android:name=".Register" />
+        <activity android:name=".Home" />
+        <activity android:name=".Guide_2" />
+        <activity android:name=".Guide_1" />
+        <activity android:name=".Guide_pre_walk" />
+        <activity android:name=".result_normal_1" />
+        <activity android:name=".result_Abnormal_1" />
+        <activity android:name=".result_Abnormal_2" />
+        <activity android:name=".app_descrition" />
+        <activity android:name=".Test_Start" />
+        <activity android:name=".Fillout_after" />
+        <activity android:name=".Fillout_before" />
+        <activity android:name=".Questionnaire" />
+        <activity android:name=".result_normal_2" />
+        <activity android:name=".Switch_Profile" />
+        <activity android:name=".Graph_week" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC-TSN4pkFulM1NI4KcHjGIChuAdr2_jII" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
